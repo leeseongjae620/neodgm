@@ -22,9 +22,9 @@ defmodule NeoDGM.BitmapFont.Pro.BasicLatin do
     end
 
     bmp_glyph unicode: ?! do
-      advance 3
-      xmin 0
-      xmax 2
+      advance 5
+      xmin 1
+      xmax 3
       ymin 0
       ymax 10
 
