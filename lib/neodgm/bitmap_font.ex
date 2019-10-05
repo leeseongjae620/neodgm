@@ -28,7 +28,8 @@ defmodule NeoDGM.BitmapFont do
 
   pro_glyph_sources =
     [
-      Pro.BasicLatin
+      Pro.BasicLatin,
+      Pro.Latin1Supplement
     ]
     |> Enum.map(&Module.concat(__MODULE__, &1))
 
